@@ -1,1 +1,32 @@
-<h1>Welcome to the index page</h1>
+<div class="row">
+    <div class="col-lg-1"></div>
+    <div class="col-lg-10">
+        <h1>{{message}}</h1>
+<table class="table table-responsive table-stripes">
+    <thead>
+        <tr>
+            <th>Full Name</th>
+            <th>My Stack</th>
+            <th><i class="fa fa-envelope text-danger"></i>for Theodore</th>
+            <th>Edit/Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each list}}
+            <tr>
+                <td>{{this.name}}</td>
+                <td>{{this.stack}} </td>
+                <td ><a class="btn btn-danger btn-sm" href="/{{this._id}}">My message</a></td>
+                <td>
+                    <a class="text-danger"><i class="fa fa-pencil fa-lg" aria-hidden="true"></i></a>
+                    <a class="text-danger" href="/delete/{{this._id}}" onclick="return confirm('are you sure you want to delete this record');"><i class="fa fa-trash fa-lg" aria-hidden="true"></i></a>
+                </td>
+            </tr>
+        {{/each}}
+    </tbody>
+</table>
+
+<a class="btn btn-danger" href="/add">Add Yours</a>
+    </div>
+    <div class="col-lg-1"></div>
+</div>
