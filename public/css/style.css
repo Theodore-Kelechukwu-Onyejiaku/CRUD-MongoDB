@@ -1,0 +1,24 @@
+.input {
+    border:none;
+    outline: none;
+    border-bottom: 3px solid rgb(18, 179, 207);
+}
+
+.input:focus{
+    border:none;
+    outline:none;
+    border-bottom: 3px solid hsl(0, 55%, 43%);
+    transition: ease-out;
+    transition-duration: 0.5s;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+ }
+ 
