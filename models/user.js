@@ -4,7 +4,8 @@ const userSchema = new mongoose.Schema({
     name : {type: String},
     access_code: {type: Number},
     stack: {type: String},
-    message: {type: String}
+    message: {type: String},
+    date: {type: String}
 })
 
 mongoose.model("User", userSchema)
