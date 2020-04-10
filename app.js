@@ -29,7 +29,7 @@ app.set("view engine", "hbs");
 //controllers middleware
 app.use("/", userController)
 
-
+app.use(express.static("public"))
 
 app.listen(process.env.PORT, ()=>{
     console.log("Server running succesfully on port:"+process.env.PORT)
