@@ -18,8 +18,8 @@
                 <td>{{this.stack}} </td>
                 <td ><a class="btn btn-danger btn-sm" href="/{{this._id}}">My message</a></td>
                 <td>
-                    <a class="text-danger"><i class="fa fa-pencil fa-lg" aria-hidden="true"></i></a>
-                    <a class="text-danger" href="/delete/{{this._id}}" onclick="return confirm('are you sure you want to delete this record');"><i class="fa fa-trash fa-lg" aria-hidden="true"></i></a>
+                    <a class="text-danger" href="/edit/{{this._id}}"><i class="fa fa-pencil fa-lg" aria-hidden="true"></i></a>
+                    <a class="text-danger" href="/item/{{this._id}}"><i class="fa fa-trash fa-lg" aria-hidden="true"></i></a>
                 </td>
             </tr>
         {{/each}}
