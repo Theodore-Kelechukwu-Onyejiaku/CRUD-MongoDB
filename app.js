@@ -7,7 +7,7 @@ const path = require("path");
 const exphs = require("express-handlebars");
 const bodyparser = require("body-parser");
 //Importing dotenv
-const dotenv = require("dotenv")
+require("dotenv").config()
 //Importing user controller
 const userController = require("./controllers/userController")
 
