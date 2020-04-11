@@ -1,25 +1,26 @@
  <div class="container">
      <div class="row">
-        <div class="col-lg-1"></div>
-        <div class="col-lg-10">
-            <h1>Welcome to add page</h1>
-            <form action="/add" class="form" method="POST">
-                <div class="form-group">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10">
+                <h1>Welcome to add page</h1>
+                <form action="/add" class="form" method="POST">
+                    <div class="form-group">
                         <input type="text" name="name" id="" placeholder="First Name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                            <input type="number"  name="access_code" id="" placeholder="digits for one to update and delete, eg. 123" class="form-control" required>
+                    </div><div class="form-group">
+                            <input type="text" name="stack" id="" placeholder="Eg. JavaScript Developer" class="form-control">
+                    </div>
+                    <div class="form-group">
+                            <textarea type="text" name="message" id="" placeholder="message for me"  class="form-control" required></textarea>
+                    </div>
+                    <button class="btn btn-info" type="submit">Submit</button>
+                </form>
+                <div class="text-center mt-5">
+                    <a class="btn btn-danger" href="/"> <i class="fa fa-arrow-left"></i> Home</a>
                 </div>
-                <div class="form-group">
-                        <input type="number"  name="access_code" id="" placeholder="digits for one to update and delete, eg. 123" class="form-control" required>
-                </div><div class="form-group">
-                        <input type="text" name="stack" id="" placeholder="Eg. JavaScript Developer" class="form-control">
-                </div>
-                <div class="form-group">
-                        <textarea type="text" name="message" id="" placeholder="message for me"  class="form-control" required></textarea>
-                </div>
-                <button class="btn btn-info" type="submit">Submit</button>
-            </form>
-            <div class="text-center mt-5">
-                <a class="btn btn-danger" href="/"> <i class="fa fa-arrow-left"></i> Home</a>
             </div>
-        </div>
         <div class="col-lg-1"></div>
     </div>
+</div>
