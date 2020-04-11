@@ -11,8 +11,6 @@ require("dotenv").config()
 //Importing user controller
 const userController = require("./controllers/userController")
 
-//configuring environment variable
-dotenv.config({path: "./config.env"});
 
 
 //Importing the body-parser middle ware
