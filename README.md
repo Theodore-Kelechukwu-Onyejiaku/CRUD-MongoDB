@@ -7,7 +7,7 @@ This is a simple application that demonstrates my skill in querying the MongoDB 
 Development: npm run dev
 
 ## Tools used:
-NodeJs, Express, MongoDB, Mongoose, and Bootstrap. 
+NodeJs, Express, MongoDB, Mongoose, Express-handlebars template engine and Bootstrap. 
 
 ## Url:
 https://crud-mdb.herokuapp.com
